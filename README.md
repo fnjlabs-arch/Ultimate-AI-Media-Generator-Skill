@@ -1,11 +1,10 @@
-# Ultimate-AI-Media-Generator-Skill
+# SadSha-Media-Studio-Skill
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/ZeroLu/Ultimate-AI-Media-Generator-Skill?style=for-the-badge)](https://github.com/ZeroLu/Ultimate-AI-Media-Generator-Skill/stargazers)
-[![AtomGitStars](https://atomgit.com/ZeroLuAtom/Ultimate-AI-Media-Generator-Skill/star/badge.svg)](https://atomgit.com/ZeroLuAtom/Ultimate-AI-Media-Generator-Skill)
-[![GitHub Forks](https://img.shields.io/github/forks/ZeroLu/Ultimate-AI-Media-Generator-Skill?style=for-the-badge)](https://github.com/ZeroLu/Ultimate-AI-Media-Generator-Skill/network/members)
-[![MIT License](https://img.shields.io/github/license/ZeroLu/Ultimate-AI-Media-Generator-Skill?style=for-the-badge)](./LICENSE)
+[![GitHub Repo stars](https://img.shields.io/github/stars/fnjlabs-arch/SadSha-Media-Studio-Skill?style=for-the-badge)](https://github.com/fnjlabs-arch/SadSha-Media-Studio-Skill/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/fnjlabs-arch/SadSha-Media-Studio-Skill?style=for-the-badge)](https://github.com/fnjlabs-arch/SadSha-Media-Studio-Skill/network/members)
+[![MIT License](https://img.shields.io/github/license/fnjlabs-arch/SadSha-Media-Studio-Skill?style=for-the-badge)](./LICENSE)
 
-![Ultimate AI Media Generator Skill Cover](./assets/readme-cover-2k-16x9.jpg)
+![SadSha Media Studio Skill Cover](./assets/readme-cover-2k-16x9.jpg)
 
 An open-source **ai image generator skill**, **ai video generator skill**, and **ai audio generator skill** for AI agents. Empower your agent to generate images, videos, sound effects, and music on their own. Top models like Nano Banana 2, Nano Banana 2 Lite, Sora 2, Seedance, Kling, HappyHorse, and Suno are supported.
 
@@ -45,7 +44,7 @@ This skill supports all platforms that support skills, including but not limited
 Just send the following command to your AI(OpenClaw, Claude Code, Codex etc)
 
 ```text
-Help me install this skill, use command `npx skills add ZeroLu/Ultimate-AI-Media-Generator-Skill --all`
+Help me install this skill, use command `npx skills add fnjlabs-arch/SadSha-Media-Studio-Skill --all`
 ```
 
 ### Manual Install
@@ -54,13 +53,13 @@ Help me install this skill, use command `npx skills add ZeroLu/Ultimate-AI-Media
 
 ```bash
 # List what can be installed from this repo
-npx skills add ZeroLu/Ultimate-AI-Media-Generator-Skill --list
+npx skills add fnjlabs-arch/SadSha-Media-Studio-Skill --list
 
 # Install all skills from this repo
-npx skills add ZeroLu/Ultimate-AI-Media-Generator-Skill --all
+npx skills add fnjlabs-arch/SadSha-Media-Studio-Skill --all
 
 # Optional: install for specific agents (if your skills runtime supports agent targeting)
-npx skills add ZeroLu/Ultimate-AI-Media-Generator-Skill --all -a codex -a claude-code
+npx skills add fnjlabs-arch/SadSha-Media-Studio-Skill --all -a codex -a claude-code
 ```
 
 ### Step 2) Get and configure API key
@@ -82,7 +81,7 @@ You can paste these prompts directly in your agent chat, or just tell your agent
 #### A) Create an image (nano banana skill)
 
 ```text
-Use $ultimate-ai-media-generator-skill to generate one image:
+Use $sadsha-media-studio-skill to generate one image:
 - model: nano-banana-pro
 - scene: text-to-image
 - prompt: A cute kitten dancing, 3D cartoon style, dynamic full body, clean stage background
@@ -93,7 +92,7 @@ Return task id, final status, and output image URL.
 #### B) Create a video (seedance 2.0 skill / sora 2 skill)
 
 ```text
-Use $ultimate-ai-media-generator-skill to generate one video:
+Use $sadsha-media-studio-skill to generate one video:
 - model: seedance-2-ark
 - scene: text-to-video
 - prompt: Cinematic wide shot of a futuristic city at sunrise, smooth drone motion
@@ -105,7 +104,7 @@ Return task id and final video URL.
 #### C) Check credits before generation
 
 ```text
-Use $ultimate-ai-media-generator-skill to quote credits before submission for this request:
+Use $sadsha-media-studio-skill to quote credits before submission for this request:
 - model: nano-banana-pro
 - media_type: image
 - scene: text-to-image
@@ -117,7 +116,7 @@ Return estimated_credits and can_afford.
 #### D) Create a sound effect
 
 ```text
-Use $ultimate-ai-media-generator-skill to generate one sound effect:
+Use $sadsha-media-studio-skill to generate one sound effect:
 - model: suno-sound-v5-5
 - scene: text-to-audio
 - prompt: A short cinematic whoosh with soft digital sparkle
@@ -128,7 +127,7 @@ Return task id, final status, and output audio URL.
 #### E) Create music
 
 ```text
-Use $ultimate-ai-media-generator-skill to generate one music track:
+Use $sadsha-media-studio-skill to generate one music track:
 - model: suno-music-v5
 - scene: text-to-music
 - prompt: Warm lo-fi study music with mellow keys
@@ -139,7 +138,7 @@ Return task id, final status, and output audio URL.
 #### F) Check balance and recent usage
 
 ```text
-Use $ultimate-ai-media-generator-skill to check current credit balance and the latest 20 usage records.
+Use $sadsha-media-studio-skill to check current credit balance and the latest 20 usage records.
 ```
 
 ---
@@ -248,4 +247,4 @@ This project is licensed under the MIT License. See [LICENSE](./LICENSE).
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ZeroLu/Ultimate-AI-Media-Generator-Skill&type=Date)](https://star-history.com/#ZeroLu/Ultimate-AI-Media-Generator-Skill&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=fnjlabs-arch/SadSha-Media-Studio-Skill&type=Date)](https://star-history.com/#fnjlabs-arch/SadSha-Media-Studio-Skill&Date)

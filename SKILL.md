@@ -1,9 +1,9 @@
 ---
-name: ultimate-ai-media-generator-skill
+name: sadsha-media-studio-skill
 description: Generate and monitor CyberBara Public API v1 image, video, audio, and music tasks end-to-end. Use when work involves CyberBara `/api/v1` endpoints for listing models, uploading reference media, quoting credits, creating generation tasks, polling task status, checking credits balance and usage, or saving final media outputs.
 ---
 
-# Ultimate-AI-Media-Generator-Skill
+# SadSha-Media-Studio-Skill
 
 ## Overview
 

@@ -1,11 +1,10 @@
-# Ultimate-AI-Media-Generator-Skill
+# SadSha-Media-Studio-Skill
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/ZeroLu/Ultimate-AI-Media-Generator-Skill?style=for-the-badge)](https://github.com/ZeroLu/Ultimate-AI-Media-Generator-Skill/stargazers)
-[![AtomGitStars](https://atomgit.com/ZeroLuAtom/Ultimate-AI-Media-Generator-Skill/star/badge.svg)](https://atomgit.com/ZeroLuAtom/Ultimate-AI-Media-Generator-Skill)
-[![GitHub Forks](https://img.shields.io/github/forks/ZeroLu/Ultimate-AI-Media-Generator-Skill?style=for-the-badge)](https://github.com/ZeroLu/Ultimate-AI-Media-Generator-Skill/network/members)
-[![MIT License](https://img.shields.io/github/license/ZeroLu/Ultimate-AI-Media-Generator-Skill?style=for-the-badge)](./LICENSE)
+[![GitHub Repo stars](https://img.shields.io/github/stars/fnjlabs-arch/SadSha-Media-Studio-Skill?style=for-the-badge)](https://github.com/fnjlabs-arch/SadSha-Media-Studio-Skill/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/fnjlabs-arch/SadSha-Media-Studio-Skill?style=for-the-badge)](https://github.com/fnjlabs-arch/SadSha-Media-Studio-Skill/network/members)
+[![MIT License](https://img.shields.io/github/license/fnjlabs-arch/SadSha-Media-Studio-Skill?style=for-the-badge)](./LICENSE)
 
-![Ultimate AI Media Generator Skill Cover](./assets/readme-cover-2k-16x9.jpg)
+![SadSha Media Studio Skill Cover](./assets/readme-cover-2k-16x9.jpg)
 
 一个开源的 **ai image generator skill**、**ai video generator skill** 与 **ai audio generator skill**，为 AI Agent 提供一站式图像、视频、音效与音乐生成能力。支持 Nano Banana 2、Nano Banana 2 Lite、Sora 2、Seedance、Kling、HappyHorse、Suno 等模型，适合内容生产、创意设计与自动化工作流。
 
@@ -45,7 +44,7 @@
 只需要把下面这句话发给 AI（OpenClaw、Claude Code、Codex 等），AI 会帮你安装：
 
 ```text
-Help me install this skill, use command `npx skills add ZeroLu/Ultimate-AI-Media-Generator-Skill --all`
+Help me install this skill, use command `npx skills add fnjlabs-arch/SadSha-Media-Studio-Skill --all`
 ```
 
 ### Manual Install
@@ -54,13 +53,13 @@ Help me install this skill, use command `npx skills add ZeroLu/Ultimate-AI-Media
 
 ```bash
 # 查看可安装内容
-npx skills add ZeroLu/Ultimate-AI-Media-Generator-Skill --list
+npx skills add fnjlabs-arch/SadSha-Media-Studio-Skill --list
 
 # 安装全部技能
-npx skills add ZeroLu/Ultimate-AI-Media-Generator-Skill --all
+npx skills add fnjlabs-arch/SadSha-Media-Studio-Skill --all
 
 # 可选：按指定 Agent 安装（如果你的 skills 运行时支持）
-npx skills add ZeroLu/Ultimate-AI-Media-Generator-Skill --all -a codex -a claude-code
+npx skills add fnjlabs-arch/SadSha-Media-Studio-Skill --all -a codex -a claude-code
 ```
 
 ### Step 2) 获取并配置 API Key
@@ -84,7 +83,7 @@ python3 scripts/cyberbara_api.py setup-api-key "<your_api_key>"
 #### A) 生图示例（nano banana skill）
 
 ```text
-Use $ultimate-ai-media-generator-skill to generate one image:
+Use $sadsha-media-studio-skill to generate one image:
 - model: nano-banana-pro
 - scene: text-to-image
 - prompt: A cute kitten dancing, 3D cartoon style, dynamic full body, clean stage background
@@ -95,7 +94,7 @@ Return task id, final status, and output image URL.
 #### B) 生视频示例（seedance 2.0 skill / sora 2 skill）
 
 ```text
-Use $ultimate-ai-media-generator-skill to generate one video:
+Use $sadsha-media-studio-skill to generate one video:
 - model: seedance-2-ark
 - scene: text-to-video
 - prompt: Cinematic wide shot of a futuristic city at sunrise, smooth drone motion
@@ -107,7 +106,7 @@ Return task id and final video URL.
 #### C) 生成前先查积分
 
 ```text
-Use $ultimate-ai-media-generator-skill to quote credits before submission for this request:
+Use $sadsha-media-studio-skill to quote credits before submission for this request:
 - model: nano-banana-pro
 - media_type: image
 - scene: text-to-image
@@ -119,7 +118,7 @@ Return estimated_credits and can_afford.
 #### D) 生成音效
 
 ```text
-Use $ultimate-ai-media-generator-skill to generate one sound effect:
+Use $sadsha-media-studio-skill to generate one sound effect:
 - model: suno-sound-v5-5
 - scene: text-to-audio
 - prompt: A short cinematic whoosh with soft digital sparkle
@@ -130,7 +129,7 @@ Return task id, final status, and output audio URL.
 #### E) 生成音乐
 
 ```text
-Use $ultimate-ai-media-generator-skill to generate one music track:
+Use $sadsha-media-studio-skill to generate one music track:
 - model: suno-music-v5
 - scene: text-to-music
 - prompt: Warm lo-fi study music with mellow keys
@@ -141,7 +140,7 @@ Return task id, final status, and output audio URL.
 #### F) 查询余额与最近使用记录
 
 ```text
-Use $ultimate-ai-media-generator-skill to check current credit balance and the latest 20 usage records.
+Use $sadsha-media-studio-skill to check current credit balance and the latest 20 usage records.
 ```
 
 ---
@@ -250,4 +249,4 @@ python3 scripts/cyberbara_api.py usage --limit 20
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ZeroLu/Ultimate-AI-Media-Generator-Skill&type=Date)](https://star-history.com/#ZeroLu/Ultimate-AI-Media-Generator-Skill&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=fnjlabs-arch/SadSha-Media-Studio-Skill&type=Date)](https://star-history.com/#fnjlabs-arch/SadSha-Media-Studio-Skill&Date)
